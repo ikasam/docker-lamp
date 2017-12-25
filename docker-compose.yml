@@ -9,7 +9,7 @@ services:
   php:
     build: ./php
     ports:
-      - '80:80'
+      - '8080:80'
     volumes:
       - ./html:/var/www/html
     depends_on:
