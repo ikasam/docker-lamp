@@ -1,2 +1,2 @@
 FROM mysql:5.7
-COPY ./my.cnf /etc/mysql/conf.d/
+COPY ./charset-utf8.cnf /etc/mysql/conf.d/
